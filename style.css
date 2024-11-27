@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 70vh;
+background-image: url("/image/grass2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: none;
+}
+
+.header{
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.section{
+    margin:20px 0px;
+
+}
+#text{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#btn{
+    padding: 13px ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+    font-size: 15px;
+    font-weight: 660;
+}
+#btn:hover{
+    background-color:rgb(31, 197, 31);
+}
+.info{
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 64%, 61%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 30px 0px;
+    min-height: 400px;
+}
+.error_info{
+    color: red;
+
+}
+.temp,
+.descDis,
+.weatherEmoji{
+    font-size: 32px;
+    font-weight: 400;
+}
